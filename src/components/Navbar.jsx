@@ -36,7 +36,12 @@ export default function Navbar() {
               >
                 About
               </Link>
-
+              <Link
+                to="/properties"
+                className="block py-2 px-3 text-l hover:text-[#fe8e3c] hover:scale-150 duration-300"
+              >
+                Properties
+              </Link>
               <Link
                 to="/services"
                 className="block py-2 px-3 text-l hover:text-[#fe8e3c] hover:scale-150 duration-300"
@@ -114,6 +119,12 @@ export default function Navbar() {
             >
               About
             </Link>
+            <Link
+                to="/properties"
+                className="text-black block px-3 py-2 rounded-md text-xl font-medium hover:text-[#fe8e3c] hover:scale-105 focus:text-[#fe8e3c] focus:scale-105 active:text-[#fe8e3c] active:scale-105 duration-200"
+              >
+                Properties
+              </Link>
             <Link
               to="/services"
               className="text-black block px-3 py-2 rounded-md text-xl font-medium hover:text-[#fe8e3c] hover:scale-105 focus:text-[#fe8e3c] focus:scale-105 active:text-[#fe8e3c] active:scale-105 duration-200"
