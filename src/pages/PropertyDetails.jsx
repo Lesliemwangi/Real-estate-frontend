@@ -44,9 +44,15 @@ const PropertyDetailsPage = () => {
               <li><span className="font-bold text-gray-800">County:</span> {county}</li>
               <li><span className="font-bold text-gray-800">Subdivision:</span> {subdivision}</li>
             </ul>
-            <button className="inline-flex items-center px-6 py-2 text-lg font-bold text-center text-white bg-[#fe8e3c] rounded-3xl hover:bg-[#fcd443] focus:ring-4 focus:outline-none focus:ring-[#fe8e3c] transition duration-300 ease-in-out">
+            <a
+          href="/contact"
+          className=" px-6 py-2 text-lg font-bold text-center text-white bg-[#fe8e3c] rounded-3xl hover:bg-[#fcd443] focus:ring-4 focus:outline-none focus:ring-[#fe8e3c] transition duration-300 ease-in-out"
+        >
+          Contact Agent
+        </a>
+            {/* <button className="inline-flex items-center px-6 py-2 text-lg font-bold text-center text-white bg-[#fe8e3c] rounded-3xl hover:bg-[#fcd443] focus:ring-4 focus:outline-none focus:ring-[#fe8e3c] transition duration-300 ease-in-out">
               Contact Agent
-            </button>
+            </button> */}
           </div>
         </div>
 

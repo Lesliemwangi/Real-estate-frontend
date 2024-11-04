@@ -1,4 +1,4 @@
-// import React from 'react';
+// // import React from 'react';
 import { Link } from 'react-router-dom';
 
 const properties = [
@@ -162,3 +162,56 @@ const PropertiesPage = () => {
 };
 
 export default PropertiesPage;
+
+// import { useEffect, useState } from 'react';
+// import PropertyCard from './PropertyCard'; // Make sure this path is correct
+
+// const PropertiesList = () => {
+//   const [properties, setProperties] = useState([]);
+//   const [loading, setLoading] = useState(true);
+//   const [error, setError] = useState(null);
+
+//   useEffect(() => {
+//     const fetchProperties = async () => {
+//       try {
+//         const response = await fetch('http://127.0.0.1:5000/properties');
+//         if (!response.ok) {
+//           throw new Error('Network response was not ok');
+//         }
+//         const data = await response.json();
+        
+//         // Ensure data is in the correct format
+//         console.log(data); // Check if id is defined for each property
+//         setProperties(data);
+//       } catch (error) {
+//         setError(error.message);
+//       } finally {
+//         setLoading(false);
+//       }
+//     };
+
+//     fetchProperties();
+//   }, []);
+
+//   if (loading) {
+//     return <div>Loading...</div>;
+//   }
+
+//   if (error) {
+//     return <div>Error: {error}</div>;
+//   }
+
+//   return (
+//     <div>
+//       <h1>Properties</h1>
+//       <div className="properties-list">
+//         {properties.map((property) => (
+//           // Ensure to use a unique key
+//           <PropertyCard key={property.id} property={property} />
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default PropertiesList;

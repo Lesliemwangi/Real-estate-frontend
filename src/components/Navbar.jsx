@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import WhiteLogo from "../assets/Bluelogo.png";
 import LookupLogo from "../assets/TransparentLogo.webp";
 
-export default function Navbar() {
+function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -143,3 +143,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
+export default Navbar;

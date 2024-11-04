@@ -36,6 +36,14 @@ function Footer() {
               </li>
               <li>
                 <Link
+                  to="/properties"
+                  className="block text-l hover:text-[#fe8e3c] hover:scale-105 duration-300"
+                >
+                  Properties
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/services"
                   className="block text-l hover:text-[#fe8e3c] hover:scale-105 duration-300"
                 >
